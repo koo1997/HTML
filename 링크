@@ -1,0 +1,37 @@
+a태그
+<a href="링크주소" target="_blink"></a>
+_blink==새로운 탭에서 열기
+download 다운로드
+
+href="#aaa" 점프
+<h2 id="aaa">여기로 점프
+
+
+usemap="#goodplace">
+<map name="goodplace">
+
+1. name
+
+→ map 태그 바로 옆에 써주는 속성으로, img 태그의 usemap에서 적었던 이름을 적어주면 된다.
+
+​
+
+2. shape
+
+→ 이미지 내의 영역을 어떤 모양으로 지정할 것인가를 알려준다.
+
+circle(circ), rectangle(rect), polygon(poly) 세 가지의 형태로 지정할 수 있다.
+
+아무것도 적지 않으면(default) 전체 영역을 지정한다.
+
+​
+
+3. coords
+
+→ shape 속성 값에 따른 좌표값
+
+circle - x, y, radis
+
+rect - l, t, r, b
+
+poly - x1,y1,x2,y2,..,xn,yn
