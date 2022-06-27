@@ -1,0 +1,12 @@
+<img src="html동일경로.jpg">
+<img src="img/하위경로.jpg">
+<img src ="../상위경로.jpg">
+
+alt==이미지 로드가 안될때 대체 텍스트 
+<img src = "najanj.jpg" alt="홈으로가기">
+
+크기
+width ,height이미지 크기조정
+
+<figure> == 웹문서 안에서 한단위가 되는 요소들을 묶을때 사용 설명 글을 표시할 때 먼저 묶어야됨
+<figcaption>== 사진 설명텍스트
